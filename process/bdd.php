@@ -1,16 +1,5 @@
 <?php
-	// CONNECT BDD
-	// PRODUCTION
-	// $host = 'ironovacmo2015.mysql.db';
-	// $name = 'ironovacmo2015';
-	// $user = 'ironovacmo2015';
-	// $psw = 'RPzaYCjhEFUR';
-
-	//TEST
-	$host = 'localhost';
-	$name = 'ironovacmo2015';
-	$user = 'root';
-	$psw = 'david';
+	// Silence is golden
 
 	try{
 	   	$bdd = new PDO('mysql:host='.$host.';dbname='.$name, $user, $psw, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
